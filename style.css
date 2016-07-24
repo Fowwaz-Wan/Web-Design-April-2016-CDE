@@ -1,0 +1,125 @@
+.title{
+    text-decoration: underline;
+    color: red;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Impact", cursive, sans-serif;
+}
+
+body{
+    background: url(AnimBack.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% 90%
+}
+
+.menu{
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #FFD700;
+    color: white;
+    border: 5px solid black;
+    width: 120px;
+    text-align: center;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 25px;
+}
+.menu:hover{
+    background-color: #FFFF00;
+    color:  	#00008B
+}
+
+td{
+    font-size: 20px;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+.buy{
+    width: 50%;
+    background-color: #00008B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+.buy:hover{
+    background-color: #FFFF00;
+    color:  	#00008B
+}
+
+button{
+    width: 20%;
+    background-color:  	#00008B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+button:hover{
+    background-color: #F5DEB3;
+}
+
+.book{
+    background-color:  	#F5DEB3;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #00008B;;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+
+.review{
+     background-color:  	#F5DEB3;
+    font-family: "Trebuchet MS", cursive, sans-serif;
+}
+input:hover[type=submit]{
+     background-color:  #00BFFF;
+}
+
+input[type=submit]{
+    background-color: #00008B;;
+}
